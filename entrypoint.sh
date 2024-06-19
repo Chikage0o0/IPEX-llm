@@ -54,7 +54,7 @@ chown -R ipex:ipex ${WORK_SPACE}
 
 # 设置OPEN WEBUI参数
 export DATA_DIR="${WORK_SPACE}/data"
-
+export GIN_MODE=release
 source ipex-llm-init --gpu --device $DEVICE
 
 # Ollama内核
