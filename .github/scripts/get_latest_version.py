@@ -17,7 +17,7 @@ if response.status_code == 200:
     if updated_at:
         github_output = os.getenv("GITHUB_OUTPUT")
         with open(github_output, "a") as f:
-            f.write(f"latest_tag_updated_at={updated_at}\n")
+            f.write(f"tag={updated_at}\n")
     else:
         print("No updated date found for the latest tag")
         exit(1)
