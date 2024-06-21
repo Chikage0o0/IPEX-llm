@@ -1,5 +1,5 @@
 ## Intel Ipex llm run in docker
-
+开箱即用 Intel 显卡的OpenWebUI、Ollama镜像
 提供了额外的PUID、PGID以及UMASK环境变量，并持久化目录至`/opt/ipex/workspace`。
 
 ```shell
