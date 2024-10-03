@@ -1,4 +1,4 @@
-# Update: 2024-10-01T13:55:31.643992Z
+# Update: 2024-10-02T13:54:43.85946Z
 FROM intelanalytics/ipex-llm-inference-cpp-xpu:latest
 
 RUN mkdir -p /llm/ollama && cd /llm/ollama && init-ollama
